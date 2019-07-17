@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./App.css";
+import NasaCard from "./components/NasaCard"
 
 function App() {
   return (
