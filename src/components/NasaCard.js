@@ -1,12 +1,10 @@
 import React from "react";
 
-function NasaCard({ imgURL }) {
+export default function NasaCard({ imgURL }) {
     return(
-        <div className="dailyPic">
-            <img src={imgURL} style={{ maxWidth: "175px" }} />
-            <p>Photo of the Day</p>
+        <div className="nasa-card">
+            <img src={imgURL} alt="space is great!" style={{ maxWidth: "175px" }} />
+            <p>"So much universe and so little time." -Terry Pratchett</p>
         </div>
     );
 }
-
-export default NasaCard;
